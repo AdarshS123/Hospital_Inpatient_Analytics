@@ -73,6 +73,8 @@ The visuals together offer a 360° view of hospital performance, yearly growth, 
 
 🔹 Key Visuals Included
 
+<img width="1287" height="726" alt="Screenshot 2025-11-05 205451" src="https://github.com/user-attachments/assets/5483e8b7-941a-4615-8c0c-8fdfb9b0322d" />
+
 Hospital Performance Bar Chart
 Displays total inpatient separations by hospital, allowing users to identify the highest-performing facilities.
 For example, Northern Yorke Peninsula Regional Health and Naracoorte Health Service showed the largest separation volumes.

@@ -66,17 +66,37 @@ vw_hospital_performance → shows total separations per hospital (for performanc
 
 These views simplified integration with Power BI and allowed dynamic reporting without writing complex SQL repeatedly.
 
-📈 Power BI Visualization (Concept)
+📈 Power BI Visualization 
 
-The processed data was connected to Power BI through MySQL, enabling the creation of interactive dashboards.
-Key visuals include:
+The processed data from MySQL was connected to Power BI to build an interactive hospital analytics dashboard that provides clear, actionable insights for healthcare administrators.
+The visuals together offer a 360° view of hospital performance, yearly growth, and seasonal patterns across South Australian hospitals (2012–2018).
 
-KPI Cards: Total separations, total hospitals, and year-over-year change.
+🔹 Key Visuals Included
 
-Line Chart: Annual separation trend showing healthcare system growth.
+Hospital Performance Bar Chart
+Displays total inpatient separations by hospital, allowing users to identify the highest-performing facilities.
+For example, Northern Yorke Peninsula Regional Health and Naracoorte Health Service showed the largest separation volumes.
 
-Bar Chart: Top 5 hospitals by average separations per quarter.
+Yearly Performance by Hospital (Multi-Line Chart)
+A comparative line chart that visualizes how separation counts have varied over time for each hospital.
+This helps track consistency and performance changes among multiple facilities across different years.
 
-Table View: Detailed breakdown of hospital performance metrics.
+Quarterly Separation Comparison (Small Multiples)
+Four small bar charts (Dec, Mar, Jun, Sep quarters) illustrate seasonal variations in hospital admissions, clearly highlighting how activity fluctuates between quarters for each hospital.
 
-These visuals provide healthcare administrators with an intuitive overview of operational trends, capacity planning insights, and hospital utilization.
+Yearly Trend of Total Separations (Overall Line Chart)
+A focused line graph summarizing total separations per year across all hospitals.
+It provides a macro-level view of healthcare system demand trends between 2012 and 2018.
+
+Interactive Slicer: Hospital Name
+Enables users to dynamically filter visuals by specific hospitals, updating all charts simultaneously for quick, hospital-level performance analysis.
+
+💡 Insights from the Dashboard
+
+The total inpatient separations increased overall between 2012 and 2018, with minor fluctuations in mid-years.
+
+Certain regional hospitals consistently reported higher patient volumes, indicating centralized healthcare demand.
+
+Quarterly variations suggest recurring operational cycles, with notable activity peaks in March and June quarters.
+
+The combination of yearly and hospital-level visuals supports both strategic (trend) and operational (performance) analysis.
